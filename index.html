@@ -15,6 +15,12 @@ header h1 { margin:0.5rem 0; font-size:2.5rem; }
 .slideshow img { width:100%; max-height:100%; object-fit:contain; display:none; padding:10px; box-sizing:border-box; }
 @media (max-width:768px) { .slideshow { height:260px; } }
 .play-section { margin:2rem 0; }
+.featured-text {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #1db954;
+  font-weight: bold;
+}
 #playBtn, #tourBtn { 
   border:none; 
   color:#fff; 
@@ -76,6 +82,9 @@ iframe { margin:2rem auto; max-width:800px; display:none; }
 </section>
 
 <section class="play-section">
+  <p class="featured-text">
+    Check out our latest single release <strong>Most Hated!</strong>
+  </p>
   <button id="playBtn">▶ Play Featured Track</button>
   <br>
   <button id="tourBtn">📅 Tour Dates</button>
@@ -85,7 +94,7 @@ iframe { margin:2rem auto; max-width:800px; display:none; }
   <iframe
     id="spotifyPlayer"
     style="border-radius:12px"
-    src="https://open.spotify.com/embed/track/2zxwLBwNEE71tbZCWc5KoO"
+    src="https://open.spotify.com/embed/track/4H30LFqAyTuZRd9oA0NevP"
     width="100%"
     height="352"
     frameborder="0"
